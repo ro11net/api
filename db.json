@@ -1,90 +1,42 @@
 {
-    "cluster1":
+    "server": [
     {
-        "server": [
-        {
-            "hostname_var": "S1_HOSTNAME",
-            "hostname": "s1",
-            "ip_var": "S1_IP",
-            "node_ip": "192.168.0.4"
-        },
-        {
-            "hostname_var": "S2_HOSTNAME",
-            "hostname": "s2",
-            "ip_var": "S2_IP",
-            "node_ip": "192.168.0.4"
-        },
-        {
-            "hostname_var": "S3_HOSTNAME",
-            "hostname": "s3",
-            "ip_var": "S3_IP",
-            "node_ip": "192.168.0.4"
-        }],
-        "agent": [
-        {
-            "hostname_var": "A1_HOSTNAME",
-            "hostname": "a1",
-            "ip_var": "A1_IP",
-            "node_ip": "192.168.0.4"
-        }],
-        "variables": [
-        {
-            "domain": "mydomain.com",
-            "vip_hostname": "vip",
-            "vip_ip": "192.168.0.50",
-            "vip_range": "192.168.0.51-192.168.0.100",
-            "rancher_hostname": "rancher",
-            "rancher_ip": "192.168.0.20",
-            "username": "admin",
-            "coredns_ip": "192.168.0.25",
-            "harbor_hostname": "harbor",
-            "network_interface": "ens1f0",
-            "ntp_ip": "192.168.0.254"
-        }]
-    }
-}
-{
-    "cluster2":
+        "hostname_var": "S1_HOSTNAME",
+        "hostname": "s1",
+        "ip_var": "S1_IP",
+        "node_ip": "192.168.0.4"
+    },
     {
-        "server": [
-        {
-            "hostname_var": "S1_HOSTNAME",
-            "hostname": "s1",
-            "ip_var": "S1_IP",
-            "node_ip": "192.168.1.4"
-        },
-        {
-            "hostname_var": "S2_HOSTNAME",
-            "hostname": "s2",
-            "ip_var": "S2_IP",
-            "node_ip": "192.168.1.4"
-        },
-        {
-            "hostname_var": "S3_HOSTNAME",
-            "hostname": "s3",
-            "ip_var": "S3_IP",
-            "node_ip": "192.168.1.4"
-        }],
-        "agent": [
-        {
-            "hostname_var": "A1_HOSTNAME",
-            "hostname": "a1",
-            "ip_var": "A1_IP",
-            "node_ip": "192.168.1.4"
-        }],
-        "variables": [
-        {
-            "domain": "mydomain2.com",
-            "vip_hostname": "vip2",
-            "vip_ip": "192.168.1.50",
-            "vip_range": "192.168.1.51-192.168.1.100",
-            "rancher_hostname": "rancher2",
-            "rancher_ip": "192.168.1.20",
-            "username": "admin2",
-            "coredns_ip": "192.168.1.25",
-            "harbor_hostname": "harbor2",
-            "network_interface": "ens1f0",
-            "ntp_ip": "192.168.1.254"
-        }]
-    }
+        "hostname_var": "S2_HOSTNAME",
+        "hostname": "s2",
+        "ip_var": "S2_IP",
+        "node_ip": "192.168.0.4"
+    },
+    {
+        "hostname_var": "S3_HOSTNAME",
+        "hostname": "s3",
+        "ip_var": "S3_IP",
+        "node_ip": "192.168.0.4"
+    }],
+    "agent": [
+    {
+        "hostname_var": "A1_HOSTNAME",
+        "hostname": "a1",
+        "ip_var": "A1_IP",
+        "node_ip": "192.168.0.4"
+    }],
+    "variables": [
+    {
+        "domain": "mydomain.com",
+        "vip_hostname": "vip",
+        "vip_ip": "192.168.0.50",
+        "vip_range": "192.168.0.51-192.168.0.100",
+        "rancher_hostname": "rancher",
+        "rancher_ip": "192.168.0.20",
+        "username": "admin",
+        "coredns_ip": "192.168.0.25",
+        "harbor_hostname": "harbor",
+        "network_interface": "ens1f0",
+        "ntp_ip": "192.168.0.254"
+    }]
 }
