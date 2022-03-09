@@ -1,4 +1,5 @@
-{
+[
+    {
     "server": [
     {
         "hostname_var": "S1_HOSTNAME",
@@ -39,4 +40,6 @@
         "network_interface": "ens1f0",
         "ntp_ip": "192.168.0.254"
     }]
-}
+    }
+[
+    
