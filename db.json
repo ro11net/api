@@ -1,5 +1,5 @@
 {
-    "server" : [
+    "servers" : [
     {
         "hostname_var" : "S1_HOSTNAME",
         "hostname" : "s1",
@@ -18,7 +18,7 @@
         "ip_var" : "S3_IP",
         "node_ip" : "192.168.0.4"
     }],
-    "agent" : [
+    "agents" : [
     {
         "hostname_var": "A1_HOSTNAME",
         "hostname": "a1",
