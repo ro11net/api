@@ -4,19 +4,19 @@
             "hostname_var": "S1_HOSTNAME",
             "hostname": "s1",
             "ip_var": "S1_IP",
-            "node_ip": "192.168.0.4"
+            "node_ip": "192.168.0.1"
         },
         {
             "hostname_var": "S2_HOSTNAME",
             "hostname": "s2",
             "ip_var": "S2_IP",
-            "node_ip": "192.168.0.4"
+            "node_ip": "192.168.0.2"
         },
         {
             "hostname_var": "S3_HOSTNAME",
             "hostname": "s3",
             "ip_var": "S3_IP",
-            "node_ip": "192.168.0.4"
+            "node_ip": "192.168.0.3"
         }
     ],
     "agent_nodes": [
