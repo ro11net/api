@@ -1,33 +1,33 @@
 {
-    "server_nodes": [
+    "cluster1":
+    {
+        "server": [
         {
             "hostname_var": "S1_HOSTNAME",
             "hostname": "s1",
             "ip_var": "S1_IP",
-            "node_ip": "192.168.0.1"
+            "node_ip": "192.168.0.4"
         },
         {
             "hostname_var": "S2_HOSTNAME",
             "hostname": "s2",
             "ip_var": "S2_IP",
-            "node_ip": "192.168.0.2"
+            "node_ip": "192.168.0.4"
         },
         {
             "hostname_var": "S3_HOSTNAME",
             "hostname": "s3",
             "ip_var": "S3_IP",
-            "node_ip": "192.168.0.3"
-        }
-    ],
-    "agent_nodes": [
+            "node_ip": "192.168.0.4"
+        }],
+        "agent": [
         {
             "hostname_var": "A1_HOSTNAME",
             "hostname": "a1",
             "ip_var": "A1_IP",
             "node_ip": "192.168.0.4"
-        }
-    ],
-    "cluster_variables": [
+        }],
+        "variables": [
         {
             "domain": "mydomain.com",
             "vip_hostname": "vip",
@@ -40,6 +40,6 @@
             "harbor_hostname": "harbor",
             "network_interface": "ens1f0",
             "ntp_ip": "192.168.0.254"
-        }
-    ]
+        }]
+    }
 }
